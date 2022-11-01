@@ -1,7 +1,7 @@
 #include"nama.h";
 
 Nama::Nama(char nama_kamu){
-    Serial.print("Adib");
+    String nama_kamu = "Adib";
     Serial.print(nama_kamu);
 }
 
