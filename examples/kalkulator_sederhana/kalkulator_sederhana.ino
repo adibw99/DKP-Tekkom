@@ -22,8 +22,10 @@ void loop() {
       // penjumlahan
       Serial.print("Masukkan Angka = ");
       int a = Serial.parseInt();
+      delay(3000);
       Serial.print("Jumlahkan dengan Angka = ");
       int b = Serial.parseInt();
+      delay(3000);
       int hasilJumlah = Calc.penjumlahan(a,b);
       Serial.print("Hasil Penjumlahan = ");
       Serial.println(hasilJumlah);
@@ -32,15 +34,17 @@ void loop() {
     case 2:
       //pengurangan
       Serial.print("Masukkan Angka = ");
-      int a = Serial.parseInt();
+      int c = Serial.parseInt();
       Serial.print("Kurangkan dengan Angka = ");
-      int b = Serial.parseInt();
-      int hasilJumlah = Calc.pengurangan(a,b);
+      delay(3000);
+      int d = Serial.parseInt();
+      int hasilKurang = Calc.pengurangan(c,d);
+      delay(3000);
       Serial.print("Hasil Pengurangan = ");
-      Serial.println(hasilJumlah);
+      Serial.println(hasilKurang);
       break;
 
     default:
-      Serial.println("Please choose a valid selection");
+      Serial.println("Pilih Menu Valid!!");
   }
 }
