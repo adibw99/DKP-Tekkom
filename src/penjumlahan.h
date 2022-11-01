@@ -1,5 +1,5 @@
-#ifndef penjumlahan_h
-#define penjumlahan_h
+// #ifndef penjumlahan_h
+// #define penjumlahan_h
 
 class Kalkulator
 {
