@@ -1,4 +1,4 @@
-#include "penjumlahan.h";
+#include"penjumlahan.h";
 
 void Penjumlahan::penjumlahan(int x, int y){
     hasil = x+y;

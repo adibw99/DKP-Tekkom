@@ -1,7 +1,6 @@
-#ifndef Penjumlahan_h
-#define Penjumlahan_h
+#ifndef penjumlahan_h
+#define penjumlahan_h
 #include <Arduino.h>
-#include <stdlib.h>
 
 class Penjumlahan{
     private:
