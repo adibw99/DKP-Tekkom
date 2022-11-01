@@ -1,3 +1,6 @@
+#ifndef penjumlahan_h
+#define penjumlahan_h
+
 class Kalkulator
 {
 private:
