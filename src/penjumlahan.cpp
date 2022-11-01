@@ -1,4 +1,4 @@
-#include "Kalkulator.h";
+#include "penjumlahan.h";
 
 int Kalkulator::penjumlahan(int x, int y)
 {
